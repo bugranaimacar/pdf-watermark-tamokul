@@ -7,7 +7,7 @@ This project provides two methods to add the watermark "TAMOKUL" to PDF files st
 - `pdf_watermark_script.py` - Custom Python script using PyPDF2 and reportlab
 - `watermark_cli_example.py` - Script using the [pdf-watermark](https://pypi.org/project/pdf-watermark/) CLI tool
 - `requirements.txt` - Python dependencies
-- `1_ELIFELAERDOGAN_9_2015.pdf` - Input PDF file
+- `kitap.pdf` - Input PDF file
 
 ## Method 1: Custom Python Script
 
@@ -98,7 +98,7 @@ font_size = 40
 
 ### CLI Tool Settings
 ```bash
---opacity 0.2          # Transparency (0-1)
+--opacity 0.15          # Transparency (0-1)
 --angle 45             # Rotation in degrees
 --text-size 40         # Font size
 --text-color "#808080" # Color in hex
@@ -124,3 +124,4 @@ Both methods will create a watermarked PDF file:
 - PyPDF2: PDF manipulation
 - reportlab: PDF generation and text rendering
 - pdf-watermark: CLI tool for watermarking (optional)
+
